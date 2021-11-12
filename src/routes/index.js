@@ -6,7 +6,7 @@ router.get('/', async (req, res) => {
     //res.redirect('/signin2'); 
     //console.log("asda");
     //res.send('asd');
-    res.render('index', { layout: 'main'});
+    res.render('index.hbs', { layout: 'main'});
 });
 
 module.exports = router;
